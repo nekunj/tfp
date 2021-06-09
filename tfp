@@ -1,0 +1,7 @@
+create table employee(emp_id varchar(5) primary key, emp_name varchar(15) not null, machine_id varchar(5) not null, machinename tinytext not null, salary integer not null);
+insert into employee(emp_id, emp_name, machine_id, machinename, salary) values("A001", "Pranav", "P0001", "VirtualConveyor Freight500", 98000);
+insert into employee(emp_id, emp_name, machine_id, machinename, salary) values("A002", "madhav", "P0002", "VirtualConveyor Freight1500", 99000);
+insert into employee(emp_id, emp_name, machine_id, machinename, salary) values("A003", "gopal", "P0003", "Cross Palletron 3000", 99500);
+insert into employee(emp_id, emp_name, machine_id, machinename, salary) values("A004", "laxman", "P0004", "Cross Palletron 4000", 97000);
+insert into employee(emp_id, emp_name, machine_id, machinename, salary) values("A005", "lucky", "P0005", "BX100S", 96000);
+insert into employee(emp_id, emp_name, machine_id, machinename, salary) values("A006", "armaan", "P0006", "ZX130S", 100000);
